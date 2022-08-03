@@ -4,5 +4,5 @@
   user: ubuntu
   
   tasks:
-  - name: create s service
+  - name: create a service
     command: kubectl apply -f rutu-service.yml
