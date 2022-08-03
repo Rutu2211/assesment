@@ -1,0 +1,8 @@
+---
+- name: create service for deployment
+  hosts: kubernetes
+  user: ubuntu
+  
+  tasks:
+  - name: create s service
+    command: kubectl apply -f rutu-service.yml
