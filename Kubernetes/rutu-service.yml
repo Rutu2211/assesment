@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: rutu-service
+  labels:
+    app: rutu-devops-project
+spec:
+  selector:
+    app: rutu-devops-project
+  type: LoadBalancer
+  ports:
+    - port: 8080
+	  targetPort: 8080
+	  nodePort: 31200
