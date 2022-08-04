@@ -1,0 +1,6 @@
+[ansible-server]
+localhost
+
+[kubernetes]
+54.160.255.84
+#provide master machin's public IP
